@@ -4,24 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web-Design</title>
+    <title>index</title>
     <style>
-    a:active{
-    background-color: yellow;
-    color:rgb(18, 149, 99);
-    }
-        a:hover,a:active{
-    background-color:magenta;
-    color:red;
-}
+        a{
+            display: block;
+            font-weight: bold;
+        }
+        .biography:visited{
+            color: #50C878;
+        }
+        .biography:link{
+            color: blueviolet;
+        }
+        .novadays:visited{
+            color: fuchsia;
+        }
+        .novadays:link{
+            color: #838996;
+        }
+        .friends:visited{
+            color: #007ACC;
+        }
+        .friends:link{
+            color: #006262;
+        }
+        .gallery:visited{
+            color: #F4CA16;
+        }
+        .gallery:link{
+            color: #EB4C42;
+        }
     </style>
 </head>
 <body>
     <h1>Персональна сторінка Пліхтяка Миколи Петровича</h1>
-        <p> Студент Прикарпатського національного університету імені Василя Стефаника. Вчуся на 122 спеціальності Комп'ютерні науки. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat adipisci quia veniam tenetur, eos eaque aliquam minus ea, dolorem distinctio deleniti omnis totam fuga natus maiores accusamus ipsum obcaecati. Possimus? <p>
-    <a href="biography.html" >Біографія</a>
-    <a href="novadays.html" >Сьогодення</a>
-    <h2><a href="friends.html" >Друзі</a></h2>
-    <h2><a href="gallery.html" >Галерея</a></h2>
+    <p> Студент Прикарпатського національного університету імені Василя Стефаника. Вчуся на 122 спеціальності Комп'ютерні науки. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat adipisci quia veniam tenetur, eos eaque aliquam minus ea, dolorem distinctio deleniti omnis totam fuga natus maiores accusamus ipsum obcaecati. Possimus? <p>
+    <a class="biography" href="biography.html" >Біографія</a>
+    <a class="novadays" href="novadays.html" >Сьогодення</a>
+    <a class="friends" href="friends.html" >Друзі</a>
+    <a class="gallery" href="gallery.html" >Галерея</a>
 </body>
 </html>
